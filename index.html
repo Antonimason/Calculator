@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+    <div class="lugar">
+        <div class="contenedorReloj">
+            <div class="contenedor-reloj">
+                <div class="hora-reloj">00</div>
+                <p>:</p>
+                <div class="minutos-reloj">00</div>
+                <p>:</p>
+                <div class="segundos-reloj">00</div>
+            </div>
+            <div class="fecha">
+                <div class="dia"></div>
+                <div class="mes"></div>
+                <div class="año"></div>
+            </div>
+        </div>
+
+        <div class="contenedorTempo">
+            <div class="contenedor-temp">
+                <div class="hora-temp">00</div>
+                <p>:</p>
+                <div class="minutos-temp">00</div>
+                <p>:</p>
+                <div class="segundos-temp">00</div>
+            </div>
+            <div class="tiempo">
+                <div class="bar-tiempo">
+                    <input type="number" class="hora-bar" value="00" min="00" max="99">
+                    <p>:</p>
+                    <input type="number" class="minutos-bar" value="00" min="00" max="60">
+                    <p>:</p>
+                    <input type="number" class="segundos-bar" value="00" min="00" max="60">
+                </div>
+                <div class="aviso">
+                    <p>h</p>
+                    <p>min</p>
+                    <p>s</p>
+                </div>
+                <div class="mensaje">Lo siento, coloca un número correcto</div>
+            </div>
+            <div class="bar-botones">
+                    <i class="icon-play" id="play-temp"></i>
+                    <i class="icon-pause" id="pause-temp"></i>
+                    <i class="icon-cw" id="reset-temp"></i>
+            </div>
+        </div>
+
+        <div class="contenedorCrono">
+            <div class="contenedor-crono">
+                <div class="minutos-crono">00</div>
+                <p>:</p>
+                <div class="segundos-crono">00</div>
+                <p>:</p>
+                <div class="milisegundos-crono">00</div>
+            </div>
+            <div class="bar-botones">
+                    <i class="icon-play crono-play" id="play-crono"></i>
+                    <i class="icon-pause crono-pause" id="pause-crono"></i>
+                    <i class="icon-cw reset-crono" id="reset-crono"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="modo">
+        <div>
+            <i class="icon-clock watch"></i>
+            <p>Clock</p>
+        </div>
+        <div>
+            <i class="icon-back-in-time tempo"></i>
+            <p>Timer</p>
+        </div>
+        <div>
+            <i class="icon-stopwatch cronito"></i>
+            <p>Stopwatch</p>
+        </div>
+    </div>
+
+    <div class="sociales">
+        <a href="https://www.facebook.com/antonio.giambrasb/" target="_blank"><i class="icon-facebook"></i></a>
+		<a href="https://www.instagram.com/antonimason/" target="_blank"><i class="icon-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/antonio-giambra-castellanos-293148233/" target="_blank"><i class="icon-linkedin"></i></a>
+        <a href="https://github.com/Antonimason" target="_blank"><i class="icon-github-circled"></i></a>
+    </div>
+    <div class="contenedorSociales">
+        <div class="copy">
+            <p>&copy CopyRight by Antonio Giambra</p>
+        </div>
+    </div>
+    
+    <script src="funciones.js"></script>
+
+</body>
+</html>
