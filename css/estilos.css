@@ -214,6 +214,7 @@ body {
     align-items: center;
     cursor: pointer;
     transform: translateY(-30px) translateX(4px);
+    user-select: none;
 }
 
 .modo div {
