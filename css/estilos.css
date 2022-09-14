@@ -212,7 +212,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    cursor: pointer;
     transform: translateY(-30px) translateX(4px);
     user-select: none;
 }
@@ -239,6 +238,14 @@ body {
     border-radius: 50%;
     box-shadow: 5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
 }
+.modo i:hover{
+    background:transparent;
+}
+.modo i:active {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+
 .contenedorCrono{
     display: none;
 }
