@@ -33,7 +33,7 @@ function Reloj() {
     }
     
     const actualizarHora = ()=> {
-        const Mes = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+        const Mes = ["January","February","March","April","May","June","July","August","September","Octuber","November","December"];
         const time = new Date();
         let hora = addZeros(time.getHours());
         let minutos = addZeros(time.getMinutes());
