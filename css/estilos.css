@@ -14,7 +14,9 @@ body {
     height: 100vh;
 }
 
-
+.container {
+    height: 100%;
+}
 .lugar {
     display: flex;
     justify-content: center;
@@ -208,6 +210,7 @@ body {
     width: 300px;
     height: 80px;
     margin: 0 auto;
+    padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -244,7 +247,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-
+@media only screen and (min-width: 1920px) {
+}
 .contenedorCrono{
     display: none;
 }
@@ -305,7 +309,11 @@ body {
     font-size: 15px;
     text-align: center;
 }
-
+@media only screen and (min-height: 700px) and (min-width: 1200px){
+    .copy {
+        display: block;
+    }
+}
 @media only screen and (min-width:600px) {
     .sociales {
         position: absolute;
@@ -328,11 +336,9 @@ body {
         display: block;
         margin: 20px 0;
     }
-
-    .copy {
-        display: block;
-    }
 }
+
+
 @media only screen and (min-width: 1920px) {
     .contenedorReloj, .contenedorTempo, .contenedorCrono{
         top: 80px;
