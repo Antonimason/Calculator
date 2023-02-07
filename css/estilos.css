@@ -34,7 +34,7 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    height: 500px;
+    height: 450px;
     width: 300px;
     margin: 0 auto;
     margin-top: 60px;
@@ -153,7 +153,7 @@ body {
     font-size: 12px;
 }
 .bar-botones {
-    margin-top: 60px;
+    margin-top: 40px;
     display: flex;
     justify-content:center;
 }
@@ -438,13 +438,19 @@ body {
     }
     
 }
-
+@media only screen and (min-height: 600px) {
+    .contenedorReloj, .contenedorTempo, .contenedorCrono{
+    }
+    .modo {
+        transform: translateY(-90px);
+    }
+}
 @media only screen and (min-height: 820px) {
     .contenedorReloj, .contenedorTempo, .contenedorCrono{
         top: 100px;
     }
     .modo {
-        padding-top: 150px;
+        transform: translateY(50px);
     }
     .contenedorSociales {
         padding-top: 200px;
