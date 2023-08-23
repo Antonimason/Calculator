@@ -1,7 +1,6 @@
 # Clock-Timer-and-Stopwatch
 
 ![Clock-Timer-Stopwatch](https://github.com/Antonimason/Clock-Timer-and-Stopwatch/assets/104198696/bd27860e-5301-4220-9ef9-4647567b89c8)
-)
 
 
 <h2>Introduction</h2>
