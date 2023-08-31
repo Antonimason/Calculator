@@ -45,21 +45,21 @@ body {
     box-shadow: 5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
 }
 
-/*RELOJ*/
-
-.contenedor-reloj {
+.contenedor {
     width: 200px;
     height: 200px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 5px solid #46a094;
-    background-color: #ffffffdc;
     border-radius: 50%;
-    box-shadow:  5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
+    box-shadow: 5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
     font-size: 40px;
+    background-color:#ffffffdc;
 }
+
+/*RELOJ*/
 
 .fecha {
     width: 200px;
@@ -93,20 +93,6 @@ body {
 
 /*TEMPORIZADOR */
 
-
-.contenedor-temp{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #46a094;
-    background-color: #ffffffdc;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
-    font-size: 40px;
-}
 
 .tiempo {
     width: 200px;
@@ -173,21 +159,6 @@ body {
 
 
 /*CRONOMETRO*/
-
-
-.contenedor-crono {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #46a094;
-    border-radius: 50%;
-    box-shadow: 5px 5px 10px -3px #0000047f, -5px -5px 15px 3px #ffffff89;
-    font-size: 40px;
-    background-color:#ffffffdc;
-}
 
 .contenedorCrono i{
     border-radius: 50%;
@@ -439,8 +410,6 @@ body {
     
 }
 @media only screen and (min-height: 600px) {
-    .contenedorReloj, .contenedorTempo, .contenedorCrono{
-    }
     .modo {
         transform: translateY(-90px);
     }
