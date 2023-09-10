@@ -218,8 +218,6 @@ body {
     box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
 
-@media only screen and (min-width: 1920px) {
-}
 .contenedorCrono{
     display: none;
 }
@@ -279,11 +277,6 @@ body {
     color: #000;
     font-size: 15px;
     text-align: center;
-}
-@media only screen and (min-height: 700px) and (min-width: 1200px){
-    .copy {
-        display: block;
-    }
 }
 @media only screen and (min-width:600px) {
     .sociales {
@@ -431,7 +424,7 @@ body {
         top: 200px;
     }
     .modo {
-        padding-top: 200px;
+        padding-top: 400px;
     }
     .contenedorSociales {
         padding-top: 300px;
